@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicação RGB</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <h1>Aplicação RGB</h1>
+    <section class="container">
+      <p>
+        <label for="red">(R) Vermelho:</label>
+        <input type="range" id="rangeRed" min="0" max="255" />
+        <input type="text" id="inputRed" readonly disabled />
+      </p>
+    </section>
+    <section class="container">
+      <p>
+        <label for="green">(V) Verde:</label>
+        <input type="range" id="rangeGreen" min="0" max="255" />
+        <input type="text" id="inputGreen" readonly disabled />
+      </p>
+    </section>
+    <section class="container">
+      <p>
+        <label for="blue">(A) Azul:</label>
+        <input type="range" id="rangeBlue" min="0" max="255" />
+        <input type="text" id="inputBlue" readonly disabled />
+      </p>
+    </section>
+
+    <div id="divSquare" class="square"></div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

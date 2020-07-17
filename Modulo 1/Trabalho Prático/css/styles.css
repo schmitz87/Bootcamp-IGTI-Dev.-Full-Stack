@@ -1,0 +1,39 @@
+#p1 {
+  background-color: rgb(255, 0, 0);
+} /* red */
+#p2 {
+  background-color: rgb(0, 255, 0);
+} /* green */
+#p3 {
+  background-color: rgb(0, 0, 255);
+} /* blue */
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  display: center;
+}
+.container {
+  padding: 1em;
+  vertical-align: middle;
+  align-content: center;
+  display: grid;
+}
+body {
+  background-color: #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+ul,
+li {
+  line-height: 20px;
+  list-style-type: square;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
